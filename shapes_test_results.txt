@@ -1,0 +1,58 @@
+
+ ****  Unit Tests for Shape, Circle, Rectangle and Square classes -tested: 07/31/2016 02:15 PM in Python: 3.5.2  ****
+
+Shapes Base Class - Tests.
+	Shapes class-test 1: default constructor set correctly test - passed.
+	Shapes base class-test 2: member function setName() name re-set test - passed.
+	Shapes base class-test 2: member function setName() name re-set test - passed.
+
+Circle derived Class - Tests.
+	Shapes base class-test 2: member function setName() name re-set test - passed.
+	Circle class-test 5: default constructor default radius value assignment test - passed.
+	Circle class-test 6: member function setName() test - passed.
+	Circle class-test 7: member function setRadius() test - passed.
+	Circle class-test 8: member function calcCircumference() test - passed.
+	Circle class-test 9: member function calcArea() test - passed.
+	Circle class-test 10: member function calcCircumference() test - passed.
+	Circle class-test 11: member function calcArea() test - passed.
+	Circle class-test 12: member function calcCircumference() test - passed.
+	Circle class-test 13: member function calcArea() test - passed.
+
+Rectangle derived Class - Tests.
+	Rectangle class-test 14: default constructor test of default name - passed.
+	Rectangle class-test 15: default constructor set of side 1  - passed.
+	Rectangle class-test 16: default constructor set of side 2 - passed.
+	Rectangle class-test 17: 3 parm constructor test of set name - passed.
+	Rectangle class-test 18: 3 parm constructor test of set of side 1  - passed.
+	Rectangle class-test 19: test of setSide1() member function - passed.
+	Rectangle class-test 20: test of setSide2() member function - passed.
+	Rectangle class-test 21: test of calcPerimeter() - passed.
+	Rectangle class-test 22: test of setSide1() member function - passed.
+	Rectangle class-test 23: test of setSide2() member function - passed.
+	Rectangle class-test 24: test of calcPerimeter() - passed.
+	Rectangle class-test 25: test of calcArea() - passed.
+
+Square derived Class - Tests.
+	Square class-test 26: default constructor test of default name - passed.
+	Square class-test 27: default constructor set of side 1  - passed.
+	Square class-test 28: default constructor set of side 2 - passed.
+	Square class-test 29: 3 parm constructor test of set name - failed.
+		Expected value: - Test simulated error to view output
+		Output value: square2
+
+	Square class-test 30: 3 parm constructor test of set of side 1  - passed.
+	Square class-test 31: 3 parm constructor test of set of side 1  - passed.
+	Square class-test 32: both sides are the same value of last set - passed.
+	Square class-test 33: test of calcPerimeter() function - passed.
+	Square class-test 34: test of calcArea() - passed.
+	Square class-test 35: test of setSide1() member function - passed.
+	Square class-test 36: test of setSide2() member function - failed.
+		Expected value: 135.47 -test of the tester
+		Output value: 135.57
+
+	Square class-test 37: test that both sides are the same - passed.
+	Square class-test 38: test of calcPerimeter() - passed.
+	Square class-test 39: test of calcArea() - passed.
+
+ 37 tests passed out of a total of 39.
+Testing complete
